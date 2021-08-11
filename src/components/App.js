@@ -83,7 +83,7 @@ const App = ()=> {
       </nav>
       
       <div className="pane top-pane">
-      <div className='giphy' style={{display:Displayer(gif)}} ><iframe src={`https://giphy.com/embed/${Gif(gif)}`} frameBorder="0" class="giphy" allowFullScreen></iframe></div>
+      <div className='giphy' style={{display:Displayer(gif)}} ><iframe src={`https://giphy.com/embed/${Gif(gif)}`} frameBorder="0" class="giphy" title='gifs' allowFullScreen></iframe></div>
       <div className='editor' style={{display:Displayer(!gif)}}>
         <Editor
           language="xml"

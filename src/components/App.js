@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import Editor from './Editor'
-import Select from 'react-select';
 import useLocalStorage from '../hooks/useLocalStorage'
 
 
